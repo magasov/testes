@@ -6,9 +6,9 @@ function App() {
       <header className="bg-primary-300 p-2 primary-header">
         <div className="header | container">
           <div className="nav-wrapper">
-            <img src="assets/logo.svg" alt="" />
-            <nav className="primary-navigation" id="primary-navigation" aria-expanded="false">
-              <ul  className="nav-list fw-semi-bold fc-primary">
+            <img src="assets/logo.svg" alt="Dwello Logo" />
+            <nav className="primary-navigation" id="primary-navigation">
+              <ul className="nav-list fw-semi-bold fc-primary">
                 <li>Home</li>
                 <li>Service</li>
                 <li>Agents</li>
@@ -16,12 +16,12 @@ function App() {
               </ul>
             </nav>
             <input type="checkbox" id="check" />
-            <label htmlFor="check" className="checkbtn">
+            <label htmlFor="check" className="checkbtn" aria-expanded="false">
               <i className="fa fa-bars" id="nav-icon"></i>
             </label>
             <div className="even-columns | disply-none-sm">
-              <img src="assets/search_icon.svg" alt="" className="disply-none-sm-icon" />
-              <img src="assets/user_icon.svg" alt="" className="disply-none-sm-icon" />
+              <img src="assets/search_icon.svg" alt="Search icon" className="disply-none-sm-icon" />
+              <img src="assets/user_icon.svg" alt="User icon" className="disply-none-sm-icon" />
               <button className="button">Sign Up</button>
             </div>
           </div>
@@ -41,7 +41,7 @@ function App() {
                 <button className="button">Sign Up</button>
               </div>
               <div className="hero-img-container">
-                <img src="assets/hero_image.png" alt="" className="main-img" />
+                <img src="assets/hero_image.png" alt="Modern dream home exterior" className="main-img" />
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ function App() {
                   className="input-with-icon border-round-1"
                   placeholder="location"
                 />
-                <img src="assets/location.svg" alt="" className="input-icon" />
+                <img src="assets/location.svg" alt="Location pin icon" className="input-icon" />
               </div>
               <div className="input-container">
                 <input
@@ -70,7 +70,7 @@ function App() {
                   className="input-with-icon border-round-1"
                   placeholder="Type"
                 />
-                <img src="assets/home_icon.svg" alt="" className="input-icon" />
+                <img src="assets/home_icon.svg" alt="Home type icon" className="input-icon" />
               </div>
               <div className="input-container">
                 <input
@@ -80,7 +80,7 @@ function App() {
                   className="input-with-icon border-round-1"
                   placeholder="Price Range"
                 />
-                <img src="assets/dollar_icon.svg" alt="" className="input-icon" />
+                <img src="assets/dollar_icon.svg" alt="Dollar price icon" className="input-icon" />
               </div>
             </div>
             <button className="button | disable-md">Sign Up</button>
@@ -89,9 +89,9 @@ function App() {
 
         <section className="main-section">
           <div className="container">
-            <div className="even-columns" aria-colspan="true">
+            <div className="even-columns">
               <div className="secondary-img flex">
-                <img src="assets/sub-title.png" alt="" className="border-round-2 sub-title-img" />
+                <img src="assets/sub-title.png" alt="Decorative subtitle illustration" className="border-round-2 sub-title-img" />
               </div>
               <div className="main-container">
                 <h2 className="secondary-heading">We Help You To Find Your Dream Home</h2>
@@ -122,7 +122,7 @@ function App() {
           <div className="container">
             <div className="heading">
               <h1 className="secondary-heading text-center">Why Choose Us</h1>
-              <p className="text-center fw-semi-bold fc-description p-2" aria-wide="false">
+              <p className="text-center fw-semi-bold fc-description p-2">
                 Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service
               </p>
             </div>
@@ -133,7 +133,7 @@ function App() {
                 style={{ '--flow-spacer': '.8rem' }}
               >
                 <div className="bg-primary-100 border-round-2">
-                  <img src="assets/location_icon1.svg" alt="" className="" />
+                  <img src="assets/location_icon1.svg" alt="Location guidance icon" className="" />
                 </div>
                 <h4 className="fw-semi-bold">Expert Guidance</h4>
                 <p className="fw-regular line-1 fc-description">
@@ -146,7 +146,7 @@ function App() {
                 style={{ '--flow-spacer': '.8rem' }}
               >
                 <div className="bg-primary-100 border-round-2">
-                  <img src="assets/user_icon1.svg" alt="" />
+                  <img src="assets/user_icon1.svg" alt="Personalized service icon" />
                 </div>
                 <h4 className="fw-semi-bold">Personalized Service</h4>
                 <p className="fw-regular line-1 fc-description">
@@ -159,7 +159,7 @@ function App() {
                 style={{ '--flow-spacer': '.8rem' }}
               >
                 <div className="bg-primary-100 border-round-2">
-                  <img src="assets/list_icon.svg" alt="" />
+                  <img src="assets/list_icon.svg" alt="Transparent process list icon" />
                 </div>
                 <h4 className="fw-semi-bold">Transparent Process</h4>
                 <p className="fw-regular line-1 fc-description">
@@ -172,7 +172,7 @@ function App() {
                 style={{ '--flow-spacer': '.8rem' }}
               >
                 <div className="bg-primary-100 border-round-2">
-                  <img src="assets/handshake_icon.svg" alt="" />
+                  <img src="assets/handshake_icon.svg" alt="Support handshake icon" />
                 </div>
                 <h4 className="fw-semi-bold">Exceptional Support</h4>
                 <p className="fw-regular line-1 fc-description">
@@ -190,20 +190,20 @@ function App() {
             <div className="even-columns center | resident-container">
               <div className="card border-round-2 | resident-card">
                 <div className="img-container">
-                  <img src="assets/image 4.png" className="img-container" />
+                  <img src="assets/image 4.png" alt="Luxury residence in San Francisco, California with 4 rooms and 3500 sq ft" className="img-container" />
                 </div>
                 <div className="card-content bg-accent-200 p-1">
                   <div className="flex">
-                    <img src="assets/location_icon.svg" alt="" />
+                    <img src="assets/location_icon.svg" alt="Location icon" />
                     <p className="fw-semi-bold fc-primary">San Francisco, California</p>
                   </div>
                   <div className="even-columns mt-1 | resident-spec" style={{ '--flow-spacer': '1.3rem' }}>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/rooms_icon.svg" alt="" className="icon" />
+                      <img src="assets/rooms_icon.svg" alt="Rooms icon" className="icon" />
                       <p className="fw-regular fc-description">4 Rooms</p>
                     </div>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/size_icon.svg" alt="" className="icon" />
+                      <img src="assets/size_icon.svg" alt="Size icon" className="icon" />
                       <p className="fw-regular fc-description">3,500 sq ft</p>
                     </div>
                   </div>
@@ -215,20 +215,20 @@ function App() {
               </div>
               <div className="card border-round-2">
                 <div className="img-container">
-                  <img src="assets/image 5.png" className="img-container" />
+                  <img src="assets/image 5.png" alt="Luxury residence in San Francisco, California with 4 rooms and 3500 sq ft" className="img-container" />
                 </div>
                 <div className="card-content bg-accent-200 p-1">
                   <div className="flex">
-                    <img src="assets/location_icon.svg" alt="" />
+                    <img src="assets/location_icon.svg" alt="Location icon" />
                     <p className="fw-semi-bold fc-primary">San Francisco, California</p>
                   </div>
                   <div className="even-columns mt-1 | resident-spec" style={{ '--flow-spacer': '1.3rem' }}>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/rooms_icon.svg" alt="" className="icon" />
+                      <img src="assets/rooms_icon.svg" alt="Rooms icon" className="icon" />
                       <p className="fw-regular fc-description">4 Rooms</p>
                     </div>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/size_icon.svg" alt="" className="icon" />
+                      <img src="assets/size_icon.svg" alt="Size icon" className="icon" />
                       <p className="fw-regular fc-description">3,500 sq ft</p>
                     </div>
                   </div>
@@ -240,20 +240,20 @@ function App() {
               </div>
               <div className="card border-round-2">
                 <div className="img-container">
-                  <img src="assets/Residences 3.png" className="img-container" />
+                  <img src="assets/Residences 3.png" alt="Luxury residence in San Francisco, California with 4 rooms and 3500 sq ft" className="img-container" />
                 </div>
                 <div className="card-content bg-accent-200 p-1">
                   <div className="flex">
-                    <img src="assets/location_icon.svg" alt="" />
+                    <img src="assets/location_icon.svg" alt="Location icon" />
                     <p className="fw-semi-bold fc-primary">San Francisco, California</p>
                   </div>
                   <div className="even-columns mt-1 | resident-spec" style={{ '--flow-spacer': '1.3rem' }}>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/rooms_icon.svg" alt="" className="icon" />
+                      <img src="assets/rooms_icon.svg" alt="Rooms icon" className="icon" />
                       <p className="fw-regular fc-description">4 Rooms</p>
                     </div>
                     <div className="center" style={{ '--flow-gap': '.5rem' }}>
-                      <img src="assets/size_icon.svg" alt="" className="icon" />
+                      <img src="assets/size_icon.svg" alt="Size icon" className="icon" />
                       <p className="fw-regular fc-description">3,500 sq ft</p>
                     </div>
                   </div>
@@ -269,28 +269,28 @@ function App() {
 
         <section className="people say | bg-primary-300">
           <div className="container">
-            <h2 className="secondary-heading text-center p-1" aria-wide="false">
+            <h2 className="secondary-heading text-center p-1">
               What People Say About Dwello
             </h2>
 
-            <ul  className="slider | testimonials-container">
+            <ul className="slider | testimonials-container">
               <li className="">
                 <div className="card border-round-2 | testimonials-content">
                   <div className="testimonials-img-container">
-                    <img src="assets/review 1.png" alt="" className="testimonials-content-img" />
+                    <img src="assets/review 1.png" alt="Home review illustration 1" className="testimonials-content-img" />
                   </div>
 
                   <div className="bg-accent-200 card-content p-1 img">
                     <div className="testimonials-con-info">
                       <div className="flex">
-                        <img src="assets/avtar 1.png" alt="" className="avatar" />
+                        <img src="assets/avtar 1.png" alt="Sarah Nguyen avatar" className="avatar" />
                         <div>
                           <p className="fw-bold fc-primary">Sarah Nguyen</p>
                           <p className="fc-primary fw-regular">San Franco</p>
                         </div>
                       </div>
                       <div className="rating">
-                        <img src="assets/Star 1.png" alt="" className="" height="20" />{' '}
+                        <img src="assets/Star 1.png" alt="Star rating icon" className="" height="20" />{' '}
                         <span className="fw-regular">5.0</span>
                       </div>
                     </div>
@@ -306,20 +306,20 @@ function App() {
               <li className="swiper-slide">
                 <div className="card border-round-2 | testimonials-content">
                   <div className="testimonials-img-container">
-                    <img src="assets/review 2.png" alt="" className="testimonials-content-img" />
+                    <img src="assets/review 2.png" alt="Home review illustration 2" className="testimonials-content-img" />
                   </div>
 
                   <div className="bg-accent-200 card-content p-1 img">
                     <div className="testimonials-con-info">
                       <div className="flex">
-                        <img src="assets/avtar 1.png" alt="" className="avatar" />
+                        <img src="assets/avtar 1.png" alt="Michael Rodri avatar" className="avatar" />
                         <div>
                           <p className="fw-bold fc-primary">Michael Rodri</p>
                           <p className="fc-primary fw-regular">San Diego</p>
                         </div>
                       </div>
                       <div className="rating">
-                        <img src="assets/Star 1.png" alt="" className="" height="20" />{' '}
+                        <img src="assets/Star 1.png" alt="Star rating icon" className="" height="20" />{' '}
                         <span className="fw-regular">5.0</span>
                       </div>
                     </div>
@@ -334,13 +334,13 @@ function App() {
               <li className="swiper-slide">
                 <div className="card border-round-2 | testimonials-content">
                   <div className="testimonials-img-container">
-                    <img src="assets/review 3.png" alt="" className="testimonials-content-img" />
+                    <img src="assets/review 3.png" alt="Home review illustration 3" className="testimonials-content-img" />
                   </div>
 
                   <div className="bg-accent-200 card-content p-1 img">
                     <div className="testimonials-con-info">
                       <div className="flex">
-                        <img src="assets/avtar 3.png" alt="" className="avatar" />
+                        <img src="assets/avtar 3.png" alt="Emily Johnson avatar" className="avatar" />
                         <div>
                           <p className="fw-bold fc-primary">Emily Johnson</p>
                           <p className="fc-primary fw-regular">Los Angel</p>
@@ -348,7 +348,7 @@ function App() {
                       </div>
 
                       <div className="rating">
-                        <img src="assets/Star 1.png" alt="" className="" height="20" />{' '}
+                        <img src="assets/Star 1.png" alt="Star rating icon" className="" height="20" />{' '}
                         <span className="fw-regular">5.0</span>
                       </div>
                     </div>
@@ -363,11 +363,11 @@ function App() {
 
             <div className="center" style={{ '--flow-gap': '2rem' }}>
               <button className="p-1 border-round-full bg-accent-700 a11y-slider-prev">
-                <img src="assets/arrow_left.svg" alt="" height="15" width="15" />
+                <img src="assets/arrow_left.svg" alt="Previous slide arrow" height="15" width="15" />
               </button>
 
               <button className="p-1 border-round-full bg-accent-700 a11y-slider-next">
-                <img src="assets/arrow_right.svg" alt="" height="15" width="15" />
+                <img src="assets/arrow_right.svg" alt="Next slide arrow" height="15" width="15" />
               </button>
             </div>
           </div>
@@ -375,17 +375,17 @@ function App() {
 
         <section>
           <div className="container">
-            <h2 className="secondary-heading text-center p-1" aria-wide="false">
+            <h2 className="secondary-heading text-center p-1">
               Do You Have Any Questions? Get Help From Us
             </h2>
 
             <div className="center | help-container" style={{ '--flow-gap': '3rem' }}>
               <div className="center" style={{ '--flow-gap': '.4rem' }}>
-                <img src="assets/verify_icon.svg" alt="" className="icon" />
+                <img src="assets/verify_icon.svg" alt="Chat support icon" className="icon" />
                 <p className="fw-regular my-auto fs-18">Chat live with our support team</p>
               </div>
               <div className="center" style={{ '--flow-gap': '.4rem' }}>
-                <img src="assets/verify_icon.svg" alt="" className="icon" />
+                <img src="assets/verify_icon.svg" alt="FAQ icon" className="icon" />
                 <p className="fw-regular my-auto fs-18">Browse our FAQ</p>
               </div>
             </div>
@@ -408,8 +408,8 @@ function App() {
         <div className="container" style={{ '--flow-spacer': '1rem' }}>
           <div className="footer-wrapper flex">
             <div className="logo flow" style={{ '--flow-spacer': '1rem' }}>
-              <img src="assets/logo.svg" alt="" />
-              <p aria-wide="true" className="fc-description fw-semi-bold line-1">
+              <img src="assets/logo.svg" alt="Dwello Logo" />
+              <p className="fc-description fw-semi-bold line-1">
                 Bringing you closer to your dream home, one click at a time.
               </p>
             </div>
@@ -417,7 +417,7 @@ function App() {
             <div className="footer-nav">
               <div className="about flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">About</h2>
-                <ul  className="fc-description fw-semi-bold">
+                <ul className="fc-description fw-semi-bold">
                   <li>Our Story</li>
                   <li>Careers</li>
                   <li>Our Team</li>
@@ -426,7 +426,7 @@ function App() {
               </div>
               <div className="support flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">Support</h2>
-                <ul  className="fc-description fw-semi-bold">
+                <ul className="fc-description fw-semi-bold">
                   <li>FAQ</li>
                   <li>Contact Us</li>
                   <li>Help Center</li>
@@ -435,7 +435,7 @@ function App() {
               </div>
               <div className="findus flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">Find Us</h2>
-                <ul  className="fc-description fw-semi-bold">
+                <ul className="fc-description fw-semi-bold">
                   <li>Events</li>
                   <li>Locations</li>
                   <li>Newsletter</li>
@@ -445,17 +445,17 @@ function App() {
 
             <div className="social">
               <h2 className="fw-bold fc-primary fs-18">Our Social</h2>
-              <ul  className="fc-description fw-semi-bold">
+              <ul className="fc-description fw-semi-bold">
                 <li className="">
-                  <img src="assets/insta_icon.svg" alt="" />
+                  <img src="assets/insta_icon.svg" alt="Instagram icon" />
                   Instagram
                 </li>
                 <li className="">
-                  <img src="assets/facebook_icon.svg" alt="" />
+                  <img src="assets/facebook_icon.svg" alt="Facebook icon" />
                   Facebook
                 </li>
                 <li className="">
-                  <img src="assets/x_icon.svg" alt="" />
+                  <img src="assets/x_icon.svg" alt="Twitter (X) icon" />
                   Twitter (x)
                 </li>
               </ul>
@@ -467,4 +467,4 @@ function App() {
   );
 }
 
-export default App;   
+export default App;
