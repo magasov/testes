@@ -890,7 +890,7 @@ input[type="email"] {
   width: 20vw;
   padding-block: .3rem;
   padding-inline-start: 2.3rem;
-  background-image: url(./assets/email.svg);
+
   background-repeat: no-repeat;
   background-position: 7px;
 }
