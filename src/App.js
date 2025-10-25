@@ -8,7 +8,7 @@ function App() {
           <div className="nav-wrapper">
             <img src="assets/logo.svg" alt="" />
             <nav className="primary-navigation" id="primary-navigation" aria-expanded="false">
-              <ul role="list" className="nav-list fw-semi-bold fc-primary">
+              <ul  className="nav-list fw-semi-bold fc-primary">
                 <li>Home</li>
                 <li>Service</li>
                 <li>Agents</li>
@@ -273,7 +273,7 @@ function App() {
               What People Say About Dwello
             </h2>
 
-            <ul role="list" className="slider | testimonials-container">
+            <ul  className="slider | testimonials-container">
               <li className="">
                 <div className="card border-round-2 | testimonials-content">
                   <div className="testimonials-img-container">
@@ -417,7 +417,7 @@ function App() {
             <div className="footer-nav">
               <div className="about flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">About</h2>
-                <ul role="list" className="fc-description fw-semi-bold">
+                <ul  className="fc-description fw-semi-bold">
                   <li>Our Story</li>
                   <li>Careers</li>
                   <li>Our Team</li>
@@ -426,7 +426,7 @@ function App() {
               </div>
               <div className="support flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">Support</h2>
-                <ul role="list" className="fc-description fw-semi-bold">
+                <ul  className="fc-description fw-semi-bold">
                   <li>FAQ</li>
                   <li>Contact Us</li>
                   <li>Help Center</li>
@@ -435,7 +435,7 @@ function App() {
               </div>
               <div className="findus flow" style={{ '--flow-spacer': '.6rem' }}>
                 <h2 className="fw-bold fc-primary fs-18">Find Us</h2>
-                <ul role="list" className="fc-description fw-semi-bold">
+                <ul  className="fc-description fw-semi-bold">
                   <li>Events</li>
                   <li>Locations</li>
                   <li>Newsletter</li>
@@ -445,7 +445,7 @@ function App() {
 
             <div className="social">
               <h2 className="fw-bold fc-primary fs-18">Our Social</h2>
-              <ul role="list" className="fc-description fw-semi-bold">
+              <ul  className="fc-description fw-semi-bold">
                 <li className="">
                   <img src="assets/insta_icon.svg" alt="" />
                   Instagram
@@ -467,4 +467,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;   
